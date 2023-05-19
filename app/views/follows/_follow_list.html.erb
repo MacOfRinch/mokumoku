@@ -1,0 +1,7 @@
+<% if users&.exists? %>
+  <% users.each do |user| %>
+    <%= user.name %><br>
+  <% end %>
+<% else %>
+  <p>誰もおらんで</p>
+<% end %>
