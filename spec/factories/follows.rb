@@ -1,6 +1,9 @@
+FOLLOWER_ID = 1
+FOLLOWING_ID = 1
+
 FactoryBot.define do
   factory :follow do
-    follower_id { 1 }
-    following_id { 1 }
+    follower_id { FOLLOWER_ID }
+    following_id { FOLLOWING_ID }
   end
 end
